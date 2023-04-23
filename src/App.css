@@ -1,42 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inter:wght@700&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit&family=Montserrat:wght@800&family=Poppins:wght@200&family=Roboto:wght@100;900&display=swap');
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+#text-home {
+    font-family: 'inter';
+    font-weight: 500;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+h1 {
+    line-height: 1.4;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#paraf {
+    line-height: 1.2;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-semibold {
+    font-family: 'Poppins', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.titleMon{
+    font-family: 'Montserrat', sans-serif;
 }
