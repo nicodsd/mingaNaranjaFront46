@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   console.log(apiUrl)
   console.log(process.env.NODE_ENV)
-  return (
+  return  (
     <>
-      <div className='bg-black w-full h-full'>
+      <div className='bg-black w-full h-full'> 
 
       <Navbar />
 
