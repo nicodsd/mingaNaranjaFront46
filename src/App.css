@@ -7,15 +7,28 @@
     font-family: 'inter';
     font-weight: 500;
 }
+
 h1 {
     line-height: 1.4;
 }
+
 #paraf {
     line-height: 1.2;
 }
+
 .font-semibold {
     font-family: 'Poppins', sans-serif;
 }
-.titleMon{
+
+.titleMon {
     font-family: 'Montserrat', sans-serif;
+}
+
+.bars {
+    color: white;
+    font-size: 30px;
+}
+
+.btnClose {
+    color: white;
 }
