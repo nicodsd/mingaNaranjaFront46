@@ -2,10 +2,13 @@
 import { useState } from "react"
 import { FiMenu } from "react-icons/fi"
 import logo from '../assets/images/logos/Logo21.png'
+import Sidebar from './Sidebar'
+
 import '../../src/App.css'
 
 
 export default function Navbar() {
+
     const [showMore, setShowMore] = useState(false);
     
     function handleMoreClick() {
@@ -33,4 +36,4 @@ export default function Navbar() {
         </nav>
     )
 }
-  
+
