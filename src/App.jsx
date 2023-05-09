@@ -14,7 +14,7 @@ function App() {
         <Index title='Best manga reader' subtitle='Your favourite manga reader 😏' paraf='is an exceptional app for all manga lovers. With a wide range of titles available, from classics to the latest releases, this app is perfect for those who want to read manga anytime, anywhere.'
           search='Search mangas' />
         <Footer dona='Donate' />
-      </div>
+      </div> 
     </>
   )
 }

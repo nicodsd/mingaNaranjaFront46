@@ -4,7 +4,8 @@ import facebook from '../assets/images/icons/Facebook.png'
 import twitter from '../assets/images/icons/Twitter.png'
 import youtube from '../assets/images/icons/Youtube.png'
 import vimeo from '../assets/images/icons/Vimeo.png'
-import heart from '../assets/images/icons/Union.png'
+import { AiOutlineHeart } from "react-icons/ai"
+
 
 export default function Footer() {
     return (
@@ -24,9 +25,11 @@ export default function Footer() {
                             <img className='w-[22px] h-[18px] lg:w-[30px] lg:h-[1.2rem]' src={vimeo} alt="" />
                             <img className='w-[22px] h-[18px] lg:w-[35px] lg:h-[1.2rem]' src={youtube} alt="" />
                         </div>
-                        <button className='bg-white w-full h-[1.5rem] lg:w-[13rem] lg:h-[2.6rem] rounded-[5px] flex justify-center items-center'>
+                        <button className='bg-white w-[5.8rem] h-[2rem] lg:w-[13rem] px-10 lg:h-[2.6rem] rounded-[5px] flex justify-center items-center transition ease-in-out hover:bg-transparencia hover:text-white'>
                             <p className='font-semibold text-[4px] lg:text-[15px]'>Donate</p>
-                            <img className='h-[13px] ml-1 lg:ml-4' src={heart} alt="" />
+                            <div className='heart ml-2'>
+                                <AiOutlineHeart />
+                            </div>
                         </button>
                     </div>
                 </div>

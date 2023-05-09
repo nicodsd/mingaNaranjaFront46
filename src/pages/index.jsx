@@ -5,7 +5,7 @@ export default function index({ title, subtitle, paraf, search}) {
         <div>
             <div className='lg:w-full lg:h-[1px]' style={{ backgroundImage: 'linear-gradient(to right, #000, #ffffff40, #000)' }}></div>
 
-            <main className='text-white w-full h-screen lg:flex lg:flex-col lg:items-center bg-no-repeat bg-center'>
+            <main className='text-white w-[200rem] h-screen lg:flex lg:flex-col lg:items-center bg-no-repeat bg-center'>
                 <h1 className='lg:text-[3.1rem] lg:h-[7rem] flex items-center absolute lg:relative text-black lg:text-white titleMon'>{title}</h1>
                 <div className='lg:bg-[#615bff56] absolute right-0 w-[30rem] rounded-[50%] h-[30rem] blur-[9rem] z-0'></div>
                 <div className='lg:w-full lg:flex lg:items-center lg:justify-around'>
