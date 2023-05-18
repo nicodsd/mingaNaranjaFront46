@@ -4,8 +4,8 @@ import facebook from '../assets/images/icons/Facebook.png'
 import twitter from '../assets/images/icons/Twitter.png'
 import youtube from '../assets/images/icons/Youtube.png'
 import { AiOutlineHeart } from "react-icons/ai"
-
 import vimeo from '../assets/images/icons/Vimeo.png'
+
 
 export default function Footer() {
     return (
