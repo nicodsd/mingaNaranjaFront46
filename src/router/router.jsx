@@ -2,7 +2,7 @@ import { createBrowserRouter, Navigate } from "react-router-dom";
 import Main from "../layouts/Main.jsx";
 import Register from "../pages/Register.jsx";
 import LogIn from "../pages/LogIn.jsx";
-import Index from "../pages/Index.jsx";
+import Index from "../pages/index.jsx";
 import AuthForm from "../pages/AuthForm.jsx";
 import NewRole from "../pages/NewRole.jsx";
 import AuthorForm from "../pages/AuthorForm.jsx";
