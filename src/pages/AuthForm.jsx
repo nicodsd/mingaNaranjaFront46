@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Register from "./Register"
-import LogIn from "./LogIn"
+import LogIn from "./LogIn" 
 
 export default function Authform(){
 
