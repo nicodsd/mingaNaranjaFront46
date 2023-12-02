@@ -1,5 +1,5 @@
 {
-  "name": "minganaranjafront46",
+  "name": "minga_orange_front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mercadopago/sdk-react": "^0.0.10",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.3.6",
+    "install": "^0.13.0",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4",
+    "npm": "^9.6.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1",
+    "react-tooltip": "^5.13.1",
+    "sweetalert2": "^11.7.5",
+    "sweetalert2-react-content": "^5.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -24,6 +38,6 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1",
-    "vite": "^4.3.0"
+    "vite": "^4.3.5"
   }
 }

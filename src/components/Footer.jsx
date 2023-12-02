@@ -1,36 +1,68 @@
-import footeR from '../assets/images/Footer.png'
-import logo from '../assets/images/logos/Logo21.png'
-import facebook from '../assets/images/icons/Facebook.png'
-import twitter from '../assets/images/icons/Twitter.png'
-import youtube from '../assets/images/icons/Youtube.png'
-import vimeo from '../assets/images/icons/Vimeo.png'
-import heart from '../assets/images/icons/Union.png'
+import React from "react";
+import { Link } from 'react-router-dom';
+
+import imgFooter from "../assets/images/Footer.png";
+import logoFooter from "../assets/images/Logo.png";
 
 export default function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+    
     return (
-        <footer className='h-[15rem] md:h-[19rem] lg:h-[39rem] w-full relative'>
-            <img className='rounded-b-[50%] w-full' src={footeR} alt="" />
-            <div className='flex justify-center items-center h-[3rem] lg:h-[12rem]'>
-                <div className='w-full mt-8 lg:w-[60rem] lg:mt-[6rem] flex items-center justify-around lg:justify-between lg:border-b-[1px] lg:border-[#ffffff40]'>
-                    <div className='text-white text-[10px] w-[6rem] lg:w-[9rem] flex justify-between'>
-                        <a className='font-semibold' href="_blank">Home</a>
-                        <a className='font-semibold' href="_blank">Mangas</a>
+        <footer className="bg-transparent text-white relative z-20">
+            <img
+                className="w-[100vw] rounded-[100%_100%_100%_100%/_0%_0%_100%_100%]"
+                src={imgFooter}
+                alt="Footer"
+            />
+            <div className="bg-black h-auto flex flex-col sm:flex-row justify-center items-center py-12 gap-4">
+                <div className="w-[30%] flex justify-evenly items-center px-10">
+                    <Link to="/" onClick={scrollToTop}
+                        className="mx-[0.5rem] md:m-0 font-poppins text-base font-normal"
+                    >
+                        Home
+                    </Link>
+                    <Link to="/mangas/:pages" onClick={scrollToTop}
+                        className="mx-[0.5rem] md:m-0 font-poppins text-base font-normal"
+                    >
+                        Mangas
+                    </Link>
+                </div>
+                <div className="w-[30%] flex justify-center items-center">
+                    <Link to="/" onClick={scrollToTop}>
+                        <img
+                            className="h-[5.5vh]"
+                            src={logoFooter}
+                            alt="Logo"
+                        />
+                    </Link>
+                </div>
+                <div className="w-[50%] md:w-[30%] flex justify-center items-center flex-col">
+                    <div className="w-[100%] mb-2 md:mb-4 sm:w-[50%] flex justify-between">
+                        <a
+                            rel="noopener noreferrer"
+                            href="#"
+                            title="Facebook"
+                            className="flex items-center justify-center rounded-full fill-white"
+                        >
+                            {/* Icono de Facebook */}
+                        </a>
+                        {/* Resto de enlaces */}
                     </div>
-                    <img className='h-[1.5rem] lg:h-12' src={logo} alt="" />
-                    <div className='h-[3.5rem] lg:h-[6.5rem] flex flex-col justify-around'>
-                        <div className='w-full gap-1 lg:w-[13rem] flex justify-center lg:gap-[2.3rem]'>
-                            <img className='w-[18px] h-[18px] lg:w-[1.4rem] lg:h-[1.4rem]' src={facebook} alt="" />
-                            <img className='w-[22px] h-[18px] lg:w-[30px] lg:h-[1.2rem]' src={twitter} alt="" />
-                            <img className='w-[22px] h-[18px] lg:w-[30px] lg:h-[1.2rem]' src={vimeo} alt="" />
-                            <img className='w-[22px] h-[18px] lg:w-[35px] lg:h-[1.2rem]' src={youtube} alt="" />
-                        </div>
-                        <button className='bg-white w-full h-[1.5rem] lg:w-[13rem] lg:h-[2.6rem] rounded-[5px] flex justify-center items-center'>
-                            <p className='font-semibold text-[4px] lg:text-[15px]'>Donate</p>
-                            <img className='h-[13px] ml-1 lg:ml-4' src={heart} alt="" />
-                        </button>
-                    </div>
+                    <Link to="/donation"
+                        className="w-full sm:w-1/2 bg-white rounded-[5px] text-black rounded-4px p-3 flex justify-center 
+                        hover:bg-[#0e0d0d] hover:text-white transition duration-200"
+                        onClick={scrollToTop}
+                    >
+                        Donate
+                        {/* Icono de Donate */}
+                    </Link>
                 </div>
             </div>
         </footer>
-    )
+    );
 }
