@@ -80,7 +80,7 @@ export default function Register(props) {
 
     return (
         <div className="flex">
-            <img src="/public/images/pexels-aleksandar-pasaric-23390091.png" className="w-[70%] h-screen object-cover hidden md:block" alt="" />
+            <img src="https://i.postimg.cc/RVJ5CY2J/pexels-aleksandar-pasaric-2339009-1.png" className="w-[70%] h-screen object-cover hidden md:block" alt="" />
             <div className="bg-white w-full md:w-[30%] py-10 md:py-0 flex flex-col justify-center items-center">
                 <img src="/public/images/Logo 2 1.png" className="h-[3rem]" alt="" />
                 <div className="flex flex-col items-center mt-6">
