@@ -72,7 +72,7 @@ export default function LogIn(props) {
                     </div>
                 </div>
             </div>
-            <img src="/public/images/pexels-aleksandar-pasaric-2339009 2.png" className="w-[70%] h-screen object-cover hidden sm:block" alt="" />
+            <img src="/public/images/pexels-aleksandar-pasaric-23390092.png" className="w-[70%] h-screen object-cover hidden sm:block" alt="" />
         </div>
     )
 }
