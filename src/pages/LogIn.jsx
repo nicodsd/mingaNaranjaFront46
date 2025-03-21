@@ -38,6 +38,7 @@ export default function LogIn(props) {
           allowOutsideClick: false,
         });
         navigate("/");
+        location.reload();
       })
       .catch((err) => {
         console.log(err.response.data.message);
