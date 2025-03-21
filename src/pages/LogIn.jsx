@@ -5,6 +5,8 @@ import apiUrl from "../../api";
 import Swal from "sweetalert2";
 import { BlurImage } from "../hooks/useBlurImage.tsx";
 import { highResSrcLogin, lowResSrcLogin } from "../assets/images/register-login-images.ts";
+import logoGoogle from "../../public/images/Google.png"
+import logominga from "../../public/images/logo-minga.png"
 
 export default function LogIn(props) {
   const email = useRef();
@@ -47,9 +49,9 @@ export default function LogIn(props) {
     <div className="flex bg-black">
       <div className="bg-white w-[100%] sm:w-[30%] flex flex-col justify-center items-center">
         <img
-          src="/public/images/Logo 2 1.png"
+          src={logominga}
           className="h-[4rem] my-[2rem]"
-          alt="logo"
+          alt="logo minga"
         />
         <div className="flex flex-col items-center  mt-6">
           <h2 className="font-bold text-center text-3xl/[39px]">Welcome!</h2>
@@ -92,7 +94,7 @@ export default function LogIn(props) {
             />
           </form>
           <button className="flex border w-[75%] py-3 rounded-lg border-[#1f1f1f78] justify-center">
-            <img src="/public/images/Google.png" alt="google-logo" />
+            <img className="pr-2" src={logoGoogle} alt="logoGoogle" />
             <span>Sign in with Google</span>
           </button>
 
