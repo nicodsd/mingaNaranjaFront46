@@ -7,8 +7,8 @@ import { AiOutlineUpload } from "react-icons/ai";
 import Swal from "sweetalert2";
 import { BlurImage } from "../hooks/useBlurImage.tsx";
 import { highResSrcReg,lowResSrcReg } from "../assets/images/register-login-images.ts";
-import logoMinga from "../../public/images/Logo-minga.png"; 
-import logoGoogle from "../../public/images/Google.png"; 
+import logoGoogle from "../assets/images/Google.png"
+import logominga from "../assets/images/Logo-minga.png"
 
 export default function Register(props) {
   const name = useRef(null);
@@ -84,7 +84,7 @@ export default function Register(props) {
     <div className="flex">
       <BlurImage src={highResSrcReg} lowSrc={lowResSrcReg} />
       <div className="bg-white w-full md:w-[30%] py-10 md:py-0 flex flex-col justify-center items-center">
-        <img src={logoMinga} className="h-[3rem]" alt="" />
+        <img src={logominga} className="h-[3rem]" alt="" />
         <div className="flex flex-col items-center mt-6">
           <h2 className="font-bold text-center text-3xl/[39px]">Welcome!</h2>
           <span className="text-center text-xs px-10 py-4">

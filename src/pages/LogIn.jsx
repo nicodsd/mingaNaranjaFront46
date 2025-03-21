@@ -5,8 +5,8 @@ import apiUrl from "../../api";
 import Swal from "sweetalert2";
 import { BlurImage } from "../hooks/useBlurImage.tsx";
 import { highResSrcLogin, lowResSrcLogin } from "../assets/images/register-login-images.ts";
-import logoGoogle from "../../public/images/Google.png"
-import logominga from "../../public/images/Logo-minga.png"
+import logoGoogle from "../assets/images/Google.png"
+import logominga from "../assets/images/Logo-minga.png"
 
 export default function LogIn(props) {
   const email = useRef();
