@@ -50,7 +50,7 @@ export default function LogIn(props) {
     <div className="flex bg-black">
       <div className="bg-white w-[100%] sm:w-[30%] flex flex-col justify-center items-center">
         <img
-          src={logominga}
+          src="../src/assets/images/Logo-minga.png"
           className="h-[4rem] my-[2rem]"
           alt="logo minga"
         />
@@ -95,7 +95,7 @@ export default function LogIn(props) {
             />
           </form>
           <button className="flex border w-[75%] py-3 rounded-lg border-[#1f1f1f78] justify-center">
-            <img className="pr-2" src={logoGoogle} alt="logoGoogle" />
+            <img className="pr-2" src="../src/assets/images/Google.png" alt="logoGoogle" />
             <span>Sign in with Google</span>
           </button>
 

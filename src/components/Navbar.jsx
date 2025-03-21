@@ -1,8 +1,7 @@
 //import Sidebar from './Sidebar.jsx'
 import { useState } from "react"
 import { FiMenu } from "react-icons/fi"
-import logo from '../assets/images/logos/Logo21.png'
-
+import logo from "../assets/images/Logo-minga.png"
 import '../../src/App.css'
 
 
@@ -30,7 +29,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                : ''} 
+                : ""} 
             <img src={logo} className='w-[5rem]' alt="logoMinga" />
         </nav>
     )
